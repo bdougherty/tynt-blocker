@@ -1,10 +1,17 @@
 document.addEventListener('beforeload', handleBeforeLoadEvent, true);
 
+function allowedToLoad(url, nodeName) {
+	if (nodeName === 'SCRIPT' && url.indexOf('tynt.com') !== -1) {
+		return false;
+	}
+	return true;
+}
+
 function handleBeforeLoadEvent(event) {
 	const element = event.target;
 	
 	// Return now if the content is allowed
-	if (safari.self.tab.canLoad(event, { url: event.url, nodeName: element.nodeName })) {
+	if (allowedToLoad(event.url, element.nodeName)) {
 		return;
 	}
 	
