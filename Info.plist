@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Tynt Blocker</string>
 	<key>CFBundleIdentifier</key>
-	<string>is.brad.tyntblocker</string>
+	<string>is.brad.safari.tyntblocker</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -29,6 +29,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>Description</key>
+	<string>Block Tynt: the copy/paste jerks.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -41,5 +43,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://brad.is/software/safari_extensions.plist</string>
+	<key>Website</key>
+	<string>http://brad.is</string>
 </dict>
 </plist>
