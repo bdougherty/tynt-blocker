@@ -1,7 +1,7 @@
 Tynt Blocker
 ============
 
-Pronounced "taynt" in this case. This Safari extension
+Pronounced "taint" in this case. This Safari extension
 blocks the stupid annoying Tynt copy/paste junk.
 
 Download from here: http://brad.is/software/TyntBlocker.safariextz
