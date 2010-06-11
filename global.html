@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<script>
+
+safari.application.addEventListener('message', handleMessage, false);
+
+// Allow everything but the Tynt motherfuckers
+function allowContentToLoad(url, nodeName) {
+	if (&& url.indexOf('tynt.com') !== -1) {
+		return false;
+	}
+	return true;
+}
+
+function handleMessage(event) {
+	if (event.name === 'canLoad') {
+		var data = event.message;
+		event.message = allowContentToLoad(data.url, data.nodeName);
+	}
+}
+
+</script>

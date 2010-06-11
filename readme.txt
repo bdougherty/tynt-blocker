@@ -1,0 +1,10 @@
+Tynt Blocker
+============
+
+Pronounced "taynt" in this case. This Safari extension
+blocks the stupid annoying Tynt copy/paste junk.
+
+Read more here: http://daringfireball.net/2010/05/tynt_copy_paste_jerks
+
+- Brad Dougherty (http://brad.is)
+	6/11/2010
